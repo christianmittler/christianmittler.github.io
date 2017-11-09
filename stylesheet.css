@@ -2,13 +2,27 @@ body {
 background-color:     white;
 }
 
+ue2 {
+font-size:            250%;
+color:                #242424;
+font-family:          verdana;
+font-weight:          bold;
+text-decoration:      underline;
+}
+
 ue1 {
 font-size:            300%;
 color:                white;
 }
 
-a {
+c {
 color:                white;
+font-size:            55%;
+}
+
+d {
+color:                white;
+font-size:            100%;
 }
 
 #banner {
@@ -24,19 +38,31 @@ position:             relative;
 #header {
 border:               solid black 1px;
 height:               110px;
-width:                auto;
+width:                600px;
 position:             relative;
+background-image:     url(header_background.jpg);
+background-size:      100%;
+background-position:  0px 210px;
 }
 
 #banner2 {
 background-color:     #1c1c1c;
-width:                auto;
+width:                580px;
 height:               40px;
 }
 
 #bodydiv {
 border:               solid black 1px;
-height:               800px;
-width:                auto;
+height:               770px;
+width:                600px;
+position:             relative;
+background-color:     #e0e0e0;
+}
+
+#endofpage {
+background-color:     #1c1c1c;
+border:               solid black 1px;
+width:                600px;
+height:               20px;
 position:             relative;
 }
