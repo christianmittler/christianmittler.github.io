@@ -10,7 +10,7 @@ background-color:     black;
 border:               solid grey 3px;
 width:                331px;
 height:               60px;
-position:             absolute;
+position:             fixed;
 }
 
 #header {
