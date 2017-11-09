@@ -1,11 +1,12 @@
 ue1 {
-font-size:        300%;
-color:            white;
+font-size:            300%;
+color:                white;
 }
 
 #banner {
-background-color: black;
-border:           solid grey 3px;
-width:            331px;
-height:           60px;
+margin-top:           25px;
+background-color:     black;
+border:               solid grey 3px;
+width:                331px;
+height:               60px;
 }
