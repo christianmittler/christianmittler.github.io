@@ -11,3 +11,10 @@ border:               solid grey 3px;
 width:                331px;
 height:               60px;
 }
+
+#header {
+background-color:     light-grey;
+opacity:              0.5;
+border:               solid black 1px;
+height:               110px;
+}
