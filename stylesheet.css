@@ -1,23 +1,42 @@
+body {
+background-color:     white;
+}
+
 ue1 {
 font-size:            300%;
 color:                white;
 }
 
+a {
+color:                white;
+}
+
 #banner {
-margin-top:           25px;
+margin-top:           20px;
 margin-bottom:        25px;
-background-color:     black;
+background-color:     #1c2d5e;
 border:               solid grey 3px;
 width:                331px;
 height:               60px;
-position:             fixed;
+position:             relative;
 }
 
 #header {
-background-color:     light-grey;
-opacity:              0.5;
 border:               solid black 1px;
 height:               110px;
-width:                700px;
+width:                auto;
+position:             relative;
+}
+
+#banner2 {
+background-color:     #1c1c1c;
+width:                auto;
+height:               40px;
+}
+
+#bodydiv {
+border:               solid black 1px;
+height:               800px;
+width:                auto;
 position:             relative;
 }
