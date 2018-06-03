@@ -1,0 +1,220 @@
+
+body {
+    /*background-color: #242d33;*/
+    background-color: white;
+    margin: 0px;
+}
+
+a1 {
+    font-family: 'Monaco';
+    font-style: normal;
+    font-size: 11px;
+    color: black;
+}
+
+#jouzoo1 {
+    position: absolute;
+    left: 50%;
+    pointer-events: none;
+}
+
+#jouzoo2 {
+    margin-top: 140px;
+    position: relative;
+    left: -50%;
+    opacity: 0.13;
+    pointer-events: none;
+}
+
+#hid1 {
+    position: absolute;
+    left: 50%;
+
+}
+
+#hid2 {
+    opacity: 0.8;
+    left: -50%;
+    margin-top: 310px;
+    position: relative;
+
+}
+
+#btn1 {
+    position: absolute;
+    left: 50%;
+
+}
+
+#btn2 {
+    left: -50%;
+    margin-top: 400px;
+    position: relative;
+}
+
+#btn3 {
+    left: -50%;
+    margin-top: 450px;
+    position: relative;
+}
+
+#btn4 {
+    left: -50%;
+    margin-top: 500px;
+    position: relative;
+}
+
+#btn5 {
+    left: -50%;
+    margin-top: 550px;
+    position: relative;
+}
+
+#btn6 {
+    left: -50%;
+    margin-top: 600px;
+    position: relative;
+}
+
+.btn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  padding: 5px 25px 5px 25px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.steambtn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  width: 150px;
+  height: 28px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.steambtn:hover {
+    background-color: rgba(0,0,0,1);
+    cursor: pointer;
+}
+
+.twitterbtn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  width: 150px;
+  height: 28px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+  background-color: rgba(0, 159, 255, 0.73);
+  color: white;
+}
+
+.twitterbtn:hover {
+    background-color: rgba(1, 138, 221, 0.85);
+    cursor: pointer;
+}
+
+.youtubebtn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  width: 150px;
+  height: 28px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+  background-color: rgba(255, 0, 0, 0.73);
+  color: white;
+}
+
+.youtubebtn:hover {
+    background-color: rgba(255, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+.twitchbtn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  width: 150px;
+  height: 28px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+  background-color: rgba(128, 0, 255, 0.73);
+  color: white;
+}
+
+.twitchbtn:hover {
+    background-color: rgba(140, 0, 255, 0.85);
+    cursor: pointer;
+}
+
+.discordbtn {
+  border-radius: 60px;
+  font-family: 'Monaco';
+  font-size: 10px;
+  width: 150px;
+  height: 28px;
+  border: solid #000000 1px;
+  transition-duration: 0.4;
+  background-color: rgba(0, 0, 0, 0.68);
+  color: black;
+}
+
+.discordbtn:hover {
+    background-color: rgba(0, 0, 0, 0.8));
+    color: white;
+    cursor: pointer;
+}
+
+.hide {
+  position:absolute;
+  left:-9999px
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
